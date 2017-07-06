@@ -1,0 +1,38 @@
+{
+  "name": "aframe-webpack-boilerplate",
+  "version": "0.1.0",
+  "description": "A basic A-Frame webpack boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server --host 0.0.0.0 --progress --colors --hot -d --inline",
+    "lint": "semistandard -v | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredpike/aframe-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "aframe"
+  ],
+  "author": "Jared Pike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredpike/aframe-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jaredpike/aframe-webpack-boilerplate#readme",
+  "semistandard": {
+    "ignore": [
+      "**/vendor/**"
+    ]
+  },
+  "dependencies": {
+    "cross-env": "^5.0.1",
+    "json-loader": "^0.5.4",
+    "pug": "^2.0.0-rc.2",
+    "semistandard": "^11.0.0",
+    "snazzy": "^7.0.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
