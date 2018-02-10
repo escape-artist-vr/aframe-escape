@@ -35,5 +35,8 @@
     "snazzy": "^7.0.0",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
   }
 }
